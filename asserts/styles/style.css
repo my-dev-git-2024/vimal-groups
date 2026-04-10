@@ -1,0 +1,102 @@
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; background: #ffffff; color: #e8e4d4; overflow-x: hidden; }
+
+    /* Gold left bar */
+    .gold-bar::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 5px;
+      background: #c9a84c;
+    }
+
+    /* Ghost numbers */
+    .ghost-num {
+      position: absolute;
+      font-family: 'Bebas Neue', cursive;
+      font-weight: 400;
+      color: rgba(26,35,80,0.6);
+      line-height: 1;
+      pointer-events: none;
+      user-select: none;
+    }
+
+    /* Circle deco */
+    .circle-deco {
+      position: absolute;
+      border-radius: 9999px;
+      border: 1px solid rgba(201,168,76,0.07);
+      pointer-events: none;
+    }
+
+    /* Hover underline for service cards */
+    .svc-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 2px;
+      background: #c9a84c;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+    .svc-card:hover::after { transform: scaleX(1); }
+    .svc-card:hover { background: #141b42; }
+
+    /* Nav glass */
+    .nav-glass {
+      background: rgba(11,15,42,0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: #0b0f2a; }
+    ::-webkit-scrollbar-thumb { background: #1a2350; border-radius: 4px; }
+
+    /* Why card ghost */
+    .why-ghost {
+      position: absolute;
+      bottom: -12px; right: -6px;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 5rem;
+      font-weight: 400;
+      color: rgba(26,35,80,0.9);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    /* Testi quote ghost */
+    .testi-ghost {
+      position: absolute;
+      top: -10px; right: 10px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 7rem;
+      font-weight: 900;
+      color: rgba(26,35,80,0.8);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    input, select, textarea {
+      background: #0f1535;
+      border: 1px solid #1a2350;
+      color: #e8e4d4;
+      padding: 12px 14px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      border-radius: 2px;
+      outline: none;
+      width: 100%;
+      transition: border-color 0.2s;
+    }
+    input:focus, select:focus, textarea:focus { border-color: #7a6228; }
+    select option { background: #0f1535; }
+    textarea { resize: none; height: 90px; }
+    @keyframes floatY {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-10px); }
+}
+
