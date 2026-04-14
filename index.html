@@ -13,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&family=Bebas+Neue&family=Barlow:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
   <script src="/asserts/scripts/common.js"></script>
+   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   <link rel="stylesheet" href="/asserts/styles/style.css">
 </head>
 
@@ -20,7 +21,7 @@
 
   <!-- ── WHATSAPP FLOAT ── -->
   <div class="fixed bottom-7 right-7 z-50 flex flex-col items-end gap-2">
-    <a href="https://wa.me/919876543210" target="_blank"
+    <a href="https://wa.me/918124773161" target="_blank"
       class="w-14 h-14 rounded-full flex items-center justify-center shadow-lg cursor-pointer"
       style="background:#25D366;box-shadow:0 4px 20px rgba(37,211,102,.35);">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
@@ -49,20 +50,21 @@
     <!-- Links -->
     <ul class="hidden md:flex gap-7 mr-7 list-none" style="font-family:'DM Sans',sans-serif;">
       <li><a href="#hero"
-          class="text-muted hover:text-gold text-[12px] tracking-widest uppercase font-bold transition-colors">Home</a>
+          class="text-muted hover:text-gold tracking-widest uppercase font-bold transition-colors">Home</a>
       </li>
       <li><a href="#services"
-          class="text-muted hover:text-gold text-[12px] tracking-widest uppercase font-bold transition-colors">Services</a>
+          class="text-muted hover:text-gold tracking-widest uppercase font-bold transition-colors">Services</a>
       </li>
       <li><a href="#about"
-          class="text-muted hover:text-gold text-[12px] tracking-widest uppercase font-bold transition-colors">About</a>
+          class="text-muted hover:text-gold tracking-widest uppercase font-bold transition-colors">About</a>
       </li>
       <li><a href="#contact"
-          class="text-muted hover:text-gold text-[12px] tracking-widest uppercase font-bold transition-colors">Contact</a>
+          class="text-muted hover:text-gold tracking-widest uppercase font-bold transition-colors">Contact</a>
       </li>
     </ul>
-    <button class="bg-gold text-black text-[12px] font-bold tracking-widest uppercase px-5 py-2.5 rounded-sm">Book a
-      Service</button>
+    <a href="#contact" 
+   class="bg-gold text-black font-bold tracking-widest uppercase px-5 py-2.5 rounded-sm text-[12px] md:text-base">Book a
+   Service</a>
   </nav>
 
   <!-- ── HERO ── -->
@@ -172,17 +174,17 @@
       <h1 class="font-display text-7xl lg:text-8xl font-black text-white leading-none mb-5">
         Install.<br>Protect.<br><span class="text-gold">Repair.</span>
       </h1>
-      <p class="text-sm text-muted font-light leading-8 max-w-md mb-9">
+      <p class="text-bold text-muted font-light leading-8 max-w-md mb-9">
         CCTV sales, installation &amp; service — cuddalore's most trusted tech partner for over
         6 years.
       </p>
       <div class="flex gap-3 mb-14">
-        <button
+        <a href="#contact"
           class="bg-gold text-black text-[11px] font-bold tracking-widest uppercase px-8 py-3.5 rounded-sm hover:bg-gold-light transition-colors">Get
-          a Free Quote</button>
-        <button
+          a Free Quote</a>
+        <a href="#services"
           class="border border-navy-4 text-cream text-[11px] font-medium tracking-widest uppercase px-7 py-3.5 rounded-sm hover:border-gold-dim transition-colors">Explore
-          Services</button>
+          Services</a>
       </div>
       <!-- Stats -->
       <div class="flex border-t border-navy-4">
@@ -210,34 +212,9 @@
     <div class="w-11 h-0.5 bg-gold mt-4 mb-14"></div>
     <!-- Grid -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-navy-4 border border-navy-4">
-
       <!-- Card 1 -->
       <div class="svc-card relative bg-navy-2 p-10 overflow-hidden transition-colors duration-300">
         <div class="why-ghost" style="font-size:5rem;">01</div>
-        <div class="w-12 h-12 border border-gold-dim flex items-center justify-center rounded-sm mb-6">
-          <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
-            <rect x="2" y="5" width="20" height="14" rx="2" stroke="#c9a84c" stroke-width="1.5" />
-            <circle cx="12" cy="12" r="3" stroke="#c9a84c" stroke-width="1.5" />
-          </svg>
-        </div>
-        <h3 class="font-display text-xl font-bold text-white mb-3">Home Appliance Repair</h3>
-        <p class="text-sm text-muted font-light leading-7">
-          Washing machines, refrigerators, microwaves, ovens &amp; ACs — fast diagnostics and reliable fixes by
-          certified technicians.
-        </p>
-        <div class="flex flex-wrap gap-1.5 mt-5">
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">AC</span>
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Fridge</span>
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Washing
-            Machine</span>
-          <span
-            class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Microwave</span>
-        </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="svc-card relative bg-navy-2 p-10 overflow-hidden transition-colors duration-300">
-        <div class="why-ghost" style="font-size:5rem;">02</div>
         <div class="w-12 h-12 border border-gold-dim flex items-center justify-center rounded-sm mb-6">
           <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
             <circle cx="12" cy="12" r="9" stroke="#c9a84c" stroke-width="1.5" />
@@ -249,17 +226,18 @@
         <p class="text-sm text-muted font-light leading-7">Wide range of cameras from leading brands. We sell, maintain
           &amp; service surveillance systems for homes and businesses.</p>
         <div class="flex flex-wrap gap-1.5 mt-5">
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">IP
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">IP
             Camera</span>
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">DVR/NVR</span>
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">AMC</span>
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Repair</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">solar Camera</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">DVR/NVR</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Wireless Camera</span>
         </div>
       </div>
 
-      <!-- Card 3 -->
+      <!-- Card 2 -->
+    
       <div class="svc-card relative bg-navy-2 p-10 overflow-hidden transition-colors duration-300">
-        <div class="why-ghost" style="font-size:5rem;">03</div>
+        <div class="why-ghost" style="font-size:5rem;">02</div>
         <div class="w-12 h-12 border border-gold-dim flex items-center justify-center rounded-sm mb-6">
           <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
             <path d="M12 2L4 7v10l8 5 8-5V7L12 2z" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round" />
@@ -270,22 +248,165 @@
         <p class="text-sm text-muted font-light leading-7">End-to-end installation — site survey, cable management,
           camera positioning, DVR setup &amp; remote access configuration.</p>
         <div class="flex flex-wrap gap-1.5 mt-5">
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Survey</span>
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Wiring</span>
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Setup</span>
-          <span class="text-[9px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Remote
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Survey</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Wiring</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Setup</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Remote
             View</span>
+        </div>
+      </div>
+      <!-- Card 3 -->
+       <div class="svc-card relative bg-navy-2 p-10 overflow-hidden transition-colors duration-300">
+        <div class="why-ghost" style="font-size:5rem;">03</div>
+        <div class="w-12 h-12 border border-gold-dim flex items-center justify-center rounded-sm mb-6">
+          <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+          <!-- Home -->
+          <path d="M3 10L12 4l9 6v8a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2v-8Z"
+                stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+
+          <!-- Tool (wrench style minimal) -->
+          <path d="M14.5 9.5a2 2 0 0 0-2 2c0 .4.1.8.4 1.1l-2.9 2.9 1.4 1.4 2.9-2.9c.3.3.7.4 1.1.4a2 2 0 0 0 0-4Z"
+                stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        </div>
+        <h3 class="font-display text-xl font-bold text-white mb-3">Home Appliance Installation & service</h3>
+        <p class="text-sm text-muted font-light leading-7">
+          Washing machines, refrigerators, Inverter, Bettery &amp; ACs — fast diagnostics and reliable fixes by
+          certified technicians.
+        </p>
+        <div class="flex flex-wrap gap-1.5 mt-5">
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">AC</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Fridge</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Ro water</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Inverter</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Bettery</span>
+
+        </div>
+      </div>  
+      <!-- card 4 -->
+      <div class="svc-card relative bg-navy-2 p-10 overflow-hidden transition-colors duration-300">
+        <div class="why-ghost" style="font-size:5rem;">04</div>
+        <div class="w-12 h-12 border border-gold-dim flex items-center justify-center rounded-sm mb-6">
+          <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+          <path d="M12 21s6-5.5 6-10a6 6 0 1 0-12 0c0 4.5 6 10 6 10Z" stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+          <circle cx="12" cy="11" r="2" stroke="#c9a84c" stroke-width="1.5"/>
+        </svg>
+
+        </div>
+        <h3 class="font-display text-xl font-bold text-white mb-3">Vehicle GPS Installation</h3>
+        <p class="text-sm text-muted font-light leading-7">Professional vehicle GPS installation services for cars, trucks, and fleets. Get real-time tracking, route monitoring, and enhanced security with expert-fitted GPS devices — fast, reliable, and affordable.</p>
+        <div class="flex flex-wrap gap-1.5 mt-5">
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Device Setup</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Live Tracking</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Wiring</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Remote Access</span>
+        </div>
+      </div>
+       <!-- card 5 -->
+      <div class="svc-card relative bg-navy-2 p-10 overflow-hidden transition-colors duration-300">
+        <div class="why-ghost" style="font-size:5rem;">05</div>
+        <div class="w-12 h-12 border border-gold-dim flex items-center justify-center rounded-sm mb-6">
+         <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+          <!-- Shield -->
+          <path d="M12 3L5 7v5c0 5 3.5 7.5 7 9 3.5-1.5 7-4 7-9V7l-7-4Z"
+                stroke="#c9a84c" stroke-width="1.5" stroke-linejoin="round"/>
+
+          <!-- Alert dot -->
+          <circle cx="12" cy="11" r="1.5" fill="#c9a84c"/>
+        </svg>
+        </div>
+        <h3 class="font-display text-xl font-bold text-white mb-3">Security Alarm System sales & Installation</h3>
+        <p class="text-sm text-muted font-light leading-7">Trusted security alarm system supply and installation by certified professionals. Whether residential or commercial, we deliver reliable, cutting-edge alarm solutions to protect what matters most to you.</p>
+        <div class="flex flex-wrap gap-1.5 mt-5">
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Sensor Setup</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Control Panel</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">24/7 Monitor</span>
+        </div>
+      </div>
+       <!-- card 6 -->
+      <div class="svc-card relative bg-navy-2 p-10 overflow-hidden transition-colors duration-300">
+        <div class="why-ghost" style="font-size:5rem;">06</div>
+        <div class="w-12 h-12 border border-gold-dim flex items-center justify-center rounded-sm mb-6">
+        <svg width="22" height="22" fill="none" viewBox="0 0 24 24">
+          <!-- Solar panel -->
+          <rect x="4" y="10" width="16" height="6" rx="1"
+                stroke="#c9a84c" stroke-width="1.5"/>
+          
+          <!-- Panel grid lines -->
+          <path d="M8 10v6M12 10v6M16 10v6M4 13h16"
+                stroke="#c9a84c" stroke-width="1.2"/>
+
+          <!-- Sun -->
+          <circle cx="17" cy="6" r="2"
+                  stroke="#c9a84c" stroke-width="1.5"/>
+          <path d="M17 2v1.5M17 8.5V10M13.5 6H12M22 6h-1.5M14.5 3.5l-1-1M19.5 8.5l1 1M19.5 3.5l1-1M14.5 8.5l-1 1"
+                stroke="#c9a84c" stroke-width="1.2" stroke-linecap="round"/>
+        </svg>
+        </div>
+        <h3 class="font-display text-xl font-bold text-white mb-3">Solar Panel Installation</h3>
+        <p class="text-sm text-muted font-light leading-7">Switch to clean, renewable energy with our expert solar panel installation services. We handle everything from site assessment to full setup, helping you save on energy costs while reducing your carbon footprint.</p>
+        <div class="flex flex-wrap gap-1.5 mt-5">
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Site Survey</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Mounting</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Wiring</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Inverter Setup</span>
+          <span class="text-[10px] tracking-wider text-gold border border-gold-dim px-2.5 py-1 uppercase">Grid Connect</span>
         </div>
       </div>
 
     </div>
-  </section>
 
+  </section>
+  <section id="brands" class="relative bg-navy px-[6%]  overflow-hidden">
+    <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-24">
+            <div class="text-center">
+                <div
+                    x-data="{}"
+                    x-init="$nextTick(() => {
+                        let ul = $refs.logos;
+                        ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                        ul.nextSibling.setAttribute('aria-hidden', 'true');
+                    })"
+                    class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
+                >
+                    <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+                        <li>
+                            <img src="./facebook.svg" alt="Facebook" />
+                        </li>
+                        <li>
+                            <img src="./disney.svg" alt="Disney" />
+                        </li>
+                        <li>
+                            <img src="./airbnb.svg" alt="Airbnb" />
+                        </li>
+                        <li>
+                            <img src="./apple.svg" alt="Apple" />
+                        </li>
+                        <li>
+                            <img src="./spark.svg" alt="Spark" />
+                        </li>
+                        <li>
+                            <img src="./samsung.svg" alt="Samsung" />
+                        </li>
+                        <li>
+                            <img src="./quora.svg" alt="Quora" />
+                        </li>
+                        <li>
+                            <img src="./sass.svg" alt="Sass" />
+                        </li>
+                    </ul>                
+                </div>
+                <!-- End: Logo Carousel animation -->
+                
+            </div>
+
+        </div>
+  </section>
   <!-- ── WHY CHOOSE US ── -->
   <section id="why" class="relative bg-navy-3 px-[6%] py-28 overflow-hidden">
     <div class="ghost-num" style="font-size:16rem;right:-20px;top:-30px;opacity:.4;">03</div>
     <div class="text-[10px] tracking-[0.3em] uppercase text-gold mb-3">Why Us</div>
-    <h2 class="font-display text-5xl font-black text-white leading-tight">Why Choose TechFix Pro</h2>
+    <h2 class="font-display text-5xl font-black text-white leading-tight">Why Choose Vimal Group of Companies</h2>
     <div class="w-11 h-0.5 bg-gold mt-4 mb-14"></div>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-7 relative z-10">
       <!-- Why cards -->
@@ -308,7 +429,7 @@
         <div class="w-7 h-0.5 bg-gold mb-4"></div>
         <h4 class="text-sm font-semibold text-white mb-2 tracking-wide">Same-Day Service</h4>
         <p class="text-xs text-muted font-light leading-6">Urgent breakdown? We offer same-day service for most repairs
-          across Puducherry.</p>
+          across Cuddalore.</p>
       </div>
       <div class="relative bg-navy-2 border border-navy-4 rounded-sm p-7 overflow-hidden">
         <div class="why-ghost">04</div>
